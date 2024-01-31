@@ -118,9 +118,10 @@ p {
 }
 #read-more-btn {
   /* display: block; */
-  padding: 14px 32px;
+  padding: 15px 32px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: .32em;
+  font-size: 0.9375rem;
   background-color: var(--accent-clr);
   color: var(--neutral-clr-100);
   font-weight: 700;
