@@ -18,6 +18,7 @@ ul {
 a {
   font-family: var(--font-family);
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 h1,
 h2,
@@ -63,6 +64,10 @@ nav ul.menu-list {
   & li a {
     font-size: 1.125rem;
     color: var(--neutral-clr-900);
+
+    &:hover {
+      color: var(--accent-clr);
+    }
   }
 }
 .active-menu {
@@ -120,11 +125,15 @@ p {
   /* display: block; */
   padding: 15px 32px;
   text-transform: uppercase;
-  letter-spacing: .32em;
+  letter-spacing: 0.32em;
   font-size: 0.9375rem;
-  background-color: var(--accent-clr);
+  background: var(--accent-clr);
   color: var(--neutral-clr-100);
   font-weight: 700;
+
+  &:hover {
+    background: var(--neutral-clr-900);
+  }
 }
 #latest-news {
   margin: calc(64px + 14px) 0 64px 0; /*14px is the top padding of #read-more-btn*/
@@ -146,6 +155,10 @@ p {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--neutral-clr-100);
+
+    &:hover {
+      color: var(--complement-clr);
+    }
   }
   & p {
     display: block;
@@ -192,6 +205,10 @@ p {
     font-size: 1.125rem;
     font-weight: 700;
     color: var(--neutral-clr-900);
+
+    &:hover {
+      color: var(--accent-clr);
+    }
   }
 
   & p {
