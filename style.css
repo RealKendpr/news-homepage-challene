@@ -54,6 +54,7 @@ nav ul.menu-list {
   padding: 28px 25px;
   background: var(--neutral-clr-100);
   visibility: hidden;
+  transition: all 250ms ease-in-out;
 
   & > div:last-child {
     margin-top: 90px;
@@ -70,7 +71,7 @@ nav ul.menu-list {
     }
   }
 }
-.active-menu {
+.activeMenu {
   visibility: visible !important;
   right: 0 !important;
 }
@@ -85,6 +86,7 @@ nav ul.menu-list {
   background: var(--neutral-clr-900);
   opacity: 0.5;
   visibility: hidden;
+  transition: all 200ms ease-in-out;
 }
 .active-void-menu {
   visibility: visible !important;
