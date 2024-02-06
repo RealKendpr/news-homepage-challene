@@ -235,6 +235,9 @@ footer .attribution {
   header {
     margin-bottom: 54px;
   }
+  #top-logo img {
+    width: 65px;
+  }
   .menu-btn {
     display: none;
   }
