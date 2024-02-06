@@ -214,6 +214,20 @@ p {
   }
 }
 
+footer .attribution {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--neutral-clr-700);
+
+  & a {
+    color: var(--neutral-clr-900);
+
+    &:hover {
+      color: var(--accent-clr);
+    }
+  }
+}
+
 @media (width >= 769px) {
   .main-container {
     margin: 45px 10% 65px 10%;
